@@ -1,3 +1,5 @@
+package bookLibraryExercise;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -65,8 +67,9 @@ public class Main {
 
         System.out.println("Total combined number of pages is : " + totalPageNumber);
 
-    double averagePublishYear = (double) (a1 + b1 + c1) /3;
+            int totalBookNumber = 3;
 
+        double averagePublishYear = (double) (a1 + b1 + c1) / totalBookNumber;
 
         System.out.println("Average publish year is: " + averagePublishYear);
 
